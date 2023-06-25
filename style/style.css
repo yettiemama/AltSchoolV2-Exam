@@ -468,6 +468,15 @@ a#prc {
     padding-left: 0.5em;
   }
 
+  #url::placeholder, #alias::placeholder  {
+    color: #3284FF;
+    opacity: 1;
+  }
+
+  #url:placeholder-shown, #alias:placeholder-shown {
+    border: 1px solid #3284FF;
+  }
+
   #domainName {
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
@@ -481,6 +490,7 @@ a#prc {
     border-radius: 5px;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    border: 1px solid #3284FF;
   }
 
   #alias {
