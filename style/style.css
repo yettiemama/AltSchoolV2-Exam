@@ -7,7 +7,6 @@ body {
 * {
   box-sizing: border-box;
   padding: 0;
-  /* margin: 0 auto; */
 }
 
 .logo {
@@ -67,16 +66,9 @@ a.my-url {
   justify-content: center;
   align-items: center;
   padding: 12px 24px;
-  /* padding-right: 12px 24px;
-    padding-left: 12px 24px; */
-  /* gap: 10px; */
-  /* width: 142px;
-    height: 44px; */
   text-decoration: none;
   color: #ffffff;
   line-height: 12px;
-
-  /* Primary/300 - base */
   border: 2px solid;
   background: #0065fe;
   border-radius: 100px;
@@ -86,23 +78,14 @@ a.my-url {
   position: absolute;
   width: 948px;
   height: 200px;
-  /* left: calc(50% - 948px/2); */
   left: 50px;
   top: 0px;
-  /* padding-left: em; */
-  /* padding-inline-start: 1em; */
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 40px;
   line-height: 96px;
-  /* or 200% */
-
   text-align: center;
-
-  /* Text Color/Main text */
-
   color: #141414;
   margin: 152px 130px;
-  /* margin: 152px auto; */
 }
 
 .small-text {
@@ -111,9 +94,7 @@ a.my-url {
   font-family: "Gilroy-Medium", sans-serif;
   font-size: 15px;
   line-height: 28px;
-  /* or 156% */
   text-align: center;
-  /* Text Color/Main text */
   color: #141414;
   margin: 20px 70px;
 }
@@ -121,7 +102,6 @@ a.my-url {
 p {
   margin-inline: 1em; /*Sets the left & right margins of the paragraphs*/
   margin-block: 0.3em; /*Sets the top & bottom margins of the paragraphs*/
-  /* padding-inline-start: 5em; */
 }
 
 p.small-text {
@@ -138,8 +118,6 @@ img.line-image {
   height: 19.91px;
   left: 397px;
   top: 185px;
-  /* top: 167.91px; */
-  /* margin-top: 0; */
 }
 
 .signup-enquiry {
@@ -175,12 +153,8 @@ a.btn {
   text-decoration: none;
   left: 5px;
   bottom: -400px;
-  /* margin-bottom: 3px; */
-
   position: relative;
   padding: 12px 24px;
-  /* margin-block-start: 15em; */
-  /* margin-left: -18px; */
 }
 
 .enq-btn {
@@ -198,8 +172,6 @@ a.btn {
 
 .tri-shape {
   position: relative;
-  /* border:1px solid green; */
-  /* text-align: center; */
   background-image: url(/asset/image/seamlessText_section_image.svg);
   background-repeat: no-repeat;
 }
@@ -212,24 +184,16 @@ a.btn {
   right: 500px;
   color: #e2e9f0;
   margin-left: 50px;
-  /* margin-top: 20px; */
-
-  /* Top: 725.63px;
-    Left: 369px; */
-  /* Rotation: 29.82°; */
 }
 
 .main-container {
   position: relative;
   margin-left: -200px;
-  /* background-image: url(/asset/image/Group3.svg);
-    background-repeat: no-repeat; */
 }
 
 .flex-container {
   display: flex;
   gap: 15rem;
-  /* justify-content: space-around;  */
   position: absolute;
   left: 300px;
   bottom: -900px;
@@ -250,7 +214,6 @@ a.btn {
 .icons-container {
   margin-block-start: 925px; /* Same as margin-top*/
   margin-inline-start: 120px;
-  /* display: absolute; */
 }
 
 p.topic {
@@ -259,8 +222,6 @@ p.topic {
   font-size: 11px;
   color: #141414;
   margin-inline-start: 50px;
-
-  /* text-justify: inter-word; */
 }
 
 .sub-hd {
@@ -270,9 +231,7 @@ p.topic {
 
 .first-column {
   width: 33.3%;
-  /* border: 1px solid red; */
   float: left;
-  /* text-align: left; */
   padding-bottom: 145px;
 }
 
@@ -280,16 +239,11 @@ p.topic {
   width: 33.3%;
   float: left;
   padding: 15px;
-  /* border: 1px solid red; */
-  /* text-align: left; */
 }
 
 .third-column {
   width: 33.3%;
   float: left;
-  /* padding: 15px; */
-  /* border: 1px solid red;  */
-  /* text-align: left; */
 }
 
 .vertical-ln {
@@ -308,7 +262,6 @@ p.topic {
 .price-ctner,
 .pricing {
   text-align: center;
-  /* margin: 0 auto; */
 }
 
 .pricing {
@@ -317,14 +270,10 @@ p.topic {
 }
 
 .sub-sentence {
-  margin-inline-start: 100px; /* 470px, 510px */
+  margin-inline-start: 100px; 
   font-family: "Gilroy-Medium", sans-serif;
   font-size: 12px;
   line-height: 24px;
-  /* letter-spacing: 0em; */
-  /* text-align: center; */
-
-  /* margin-block-start: 0.6px; */
 }
 
 .middle {
@@ -336,11 +285,8 @@ p.topic {
 img.icons {
   width: 55px;
   height: 55px;
-  /* top: 16px;
-    left: 16px; */
   border-radius: 50%;
-  /* border: solid 1px rgb(142, 142, 150); */
-  background: #d9e4ec; /* #F9FBFD;  */
+  background: #d9e4ec; 
   padding: 0 9px;
 }
 
@@ -362,17 +308,8 @@ h2.main-caption {
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 30px;
   line-height: 48px;
-  /* letter-spacing: 0em; */
-  /* text-align: left; */
   display: inline;
   color: #141414;
-  /* padding-left: 50px; */
-  /* margin-left: -200px; */
-  /* margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 20px;
-    margin-inline-end: 0.83em;
-    font-weight: normal; */
 }
 
 .word {
@@ -381,30 +318,17 @@ h2.main-caption {
 
 .list-review-item {
   font-family: "Gilroy-SemiBold", sans-serif;
-  /* font-size: 32px; */
-  /* line-height: 24px; */
-  /* letter-spacing: 0em; */
-  /* text-align: left; */
   color: #141414;
-  /* padding-top: 5em; */
-  /* font-weight: bold; */
 }
 
 li span.thin {
   font-family: "Gilroy-Medium", sans-serif;
   font-size: 11px;
-  /* line-height: 24px; */
-  /* letter-spacing: 0em;
-    text-align: left; */
-  /* color:  blue; */
   margin-top: 15px;
 }
 
 .vertical {
   display: block;
-  /* left: 1500px; */
-  /* bottom: -2050px; */
-  /* right: 500px; */
   margin: 1000px 50px;
 }
 
@@ -511,66 +435,52 @@ a#prc {
   }
 
   /* THIS CONTROLS THE BLACK CONTAINER BOX WHERE THE WHITE BOX IS IN */
-/* changed 1st part of this className from form to wrapper */
   .wrapper-container {
     background-color: #1e3448;
     padding-block: 2em;
     margin-block-start: 2em;
-    /* height: 50px; */
   }
 
   /* THIS CONTROLS THE WHITE FORM BOX */
   .form-wrapper {
-    width: 450px; /*350px;*/
+    width: 450px; 
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
     background: #fff;
-    /* padding: 20px; */
     margin: 8% auto 0;
     text-align: center;
     border: 1px solid lightskyblue;
     border-radius: 5px;
-    padding: 5em; /*5em;*/
+    padding: 5em; 
     margin-block-start: 2em;
-    /* margin-block: 2rem; */
-    /* margin: 0 auto; */
   } 
 
-  /* PASTE UR URL HERE INPUT BOX */
+  /* 'PASTE UR URL HERE' INPUT BOX STYLING */
   #url {
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0em;
-    width: 390px; /*290px;*/
+    width: 390px; 
     height: 38px;
     margin-inline-start: -4em; /* margin-left */
     margin-block-end: 2em;
     border-radius: 5px;
     padding-left: 0.5em;
-    /* text-align: left; */
-    /* color: #3284FF; */
   }
-
-  /* input {
-    color: #ff324d;
-  } */
 
   #domainName {
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
     line-height: 12px;
     letter-spacing: 0em;
-    margin-left: -3.5em; /* -3.5em; */
+    margin-left: -3.5em; 
     width: 205px;
     height: 38px;
     margin-block-end: 1.5em; /* margin-bottom */
-    /* text-align: left; */
-    /* margin-right: -2em; */
     color: #3284FF;
     border-radius: 5px;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    /* position: relatiive; */
   }
 
   #alias {
@@ -578,10 +488,9 @@ a#prc {
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0em;
-    margin-left: -3em; /* -4em; */
-    width:  /*100px;*/ 170px;
+    margin-left: -3em; 
+    width: 170px;
     height: 38px;
-    /* text-align: left; */
     color: #3284FF;
     border-radius: 5px;
     padding-left: 0.5em;
@@ -605,20 +514,15 @@ a#prc {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    /* background-color: #124354; */
-    /* color: #fff; */
     padding: 10px 20px;
     border: none;
-    /* border-radius: 5px; */
     cursor: pointer;
     width: 390px;
     height: 38px;
     color: #FFFFFF;
     background: #3284FF;
     margin-block-start: -2em; /* margin-top */
-    /* border-radius: 5px; */
     border: 2px solid;
-  /* background: #0065fe; */
     border-radius: 100px;
     margin-left: -3.5em;
   }
@@ -664,10 +568,6 @@ a#prc {
     color: #141414;
   }
 
-  /* .label-seven, .label-nine {
-    margin-inline-end: 740px;
-  } */
-
   /* + SIGN ON EACH ACCORDION LABEL */
   .accordion .contentBx .label::before {
     content: '+';
@@ -686,17 +586,12 @@ a#prc {
     height: -20px; /* Making the height of the contents -ve reveals what's in each accordion */
     overflow: hidden;
     transition: 0.5s;
-    overflow-y: clip; /* auto */
-
+    overflow-y: clip; 
     font-family: 'Gilroy-Medium', sans-serif;
     font-size: 14px;
     line-height: 32px;
     letter-spacing: 0em;
     color: #141414;
-    /* text-align: left; */
-
-    /* width: 792px;
-    height: 63px; */
   } 
 
   .content-one p {
@@ -711,13 +606,12 @@ a#prc {
 
   .mid-pg {
     padding-block-start: 3em;
-    /* font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 40px;
-    line-height: 48px;
+    /* line-height: 48px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FFFFFF; */
-      /* background: #FFFFFF; */
+    color: #FFFFFF;   */
    } 
 
    #mid-section {
@@ -746,10 +640,9 @@ a#prc {
     padding-inline: 2em;
    }
 
-   /* FOOTER STYLING - USING COPY OF PRICING STYLING */
-
-   /* THIS CODE BLOCK IS THE CONTAINER FOR THE 3 PRICE LIST */
-  .prices {
+   /* FOOTER STYLING - REUSING SOME OF PRICING STYLING */
+   /* THIS CODE BLOCK IS THE CONTAINER FOR THE 5 COLUMN FOOTER */
+  .footer-area {
     display: flex;
     margin-block-start: 3em;
     margin-inline-start: 2em;
@@ -769,12 +662,6 @@ a#prc {
     height: 10rem; /*5rem;*/
     margin-top: 3rem;
     margin: 0 auto;
-    /* background: linear-gradient(340.22deg, rgba(0, 90, 226, 0.6) 11.62%, rgba(115, 230, 255, 0.228) 83.25%);
-    width: 5300px;
-    height: 410px;
-    top: 764.729248046875px;
-    left: 1071.9447326660156px;
-    opacity: 0.5px; */
   }
 
   .mini-logo, .socials {
@@ -825,8 +712,6 @@ a#prc {
     background-image: url('data:image/svg+xml,<svg width="282" height="237" viewBox="0 0 282 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M2.62215 341.153C-3.17628 300.037 2.0152 256.123 24.4812 213.097C45.359 173.112 82.4614 139.772 122.944 110.712C161.774 82.8399 205.124 66.9811 249.858 51.3149C307.187 31.2388 377.548 -17.8342 419.579 6.83164C462.817 32.2045 423.193 102.548 422.699 152.744C422.372 186.111 424.134 216.996 417.182 251.261C408.532 293.897 418.154 344.247 377.344 376.313C336.59 408.335 282.729 381.814 233.522 395.57C172.961 412.499 113.571 477.647 60.0053 465.024C8.12976 452.798 9.32928 388.724 2.62215 341.153Z" fill="url(%23paint0_linear_1_494)" fill-opacity="0.6"/><defs><linearGradient id="paint0_linear_1_494" x1="441.815" y1="305.507" x2="44.6208" y2="237.159" gradientUnits="userSpaceOnUse"><stop stop-color="%23005AE2"/><stop offset="1" stop-color="%2373E6FF" stop-opacity="0.38"/></linearGradient></defs></svg>');
   }
 
-  /* THIS IS THE CODE FOR BASIC & TEAMS PRICING */
-  /* THIS IS WHERE I WILL REMOVE THE BLUE BORDER */
 .ft-page {
   width: 15rem;
   height: 24rem;
