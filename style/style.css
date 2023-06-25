@@ -1,0 +1,909 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  overflow-x: hidden;
+  /* text-align: center; */
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  /* margin: 0 auto; */
+}
+
+.logo {
+  margin-top: 0.5em;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0065fe;
+}
+
+div.myframe {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list,
+.list-review {
+  list-style-type: none; /* This removes the UL bullet points */
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+a.list-itm {
+  text-decoration: none;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #141414;
+}
+
+a.my-url {
+  color: #0065fe;
+}
+
+.navlist-two {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 16px;
+  margin-top: 0.5em;
+}
+
+.login {
+  width: 45px;
+  height: 20px;
+  line-height: 19px;
+}
+
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  /* padding-right: 12px 24px;
+    padding-left: 12px 24px; */
+  /* gap: 10px; */
+  /* width: 142px;
+    height: 44px; */
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 12px;
+
+  /* Primary/300 - base */
+  border: 2px solid;
+  background: #0065fe;
+  border-radius: 100px;
+}
+
+.large-text {
+  position: absolute;
+  width: 948px;
+  height: 200px;
+  /* left: calc(50% - 948px/2); */
+  left: 50px;
+  top: 0px;
+  /* padding-left: em; */
+  /* padding-inline-start: 1em; */
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 40px;
+  line-height: 96px;
+  /* or 200% */
+
+  text-align: center;
+
+  /* Text Color/Main text */
+
+  color: #141414;
+  margin: 152px 130px;
+  /* margin: 152px auto; */
+}
+
+.small-text {
+  width: 781px;
+  height: 105px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 156% */
+  text-align: center;
+  /* Text Color/Main text */
+  color: #141414;
+  margin: 20px 70px;
+}
+
+p {
+  margin-inline: 1em; /*Sets the left & right margins of the paragraphs*/
+  margin-block: 0.3em; /*Sets the top & bottom margins of the paragraphs*/
+  /* padding-inline-start: 5em; */
+}
+
+p.small-text {
+  padding-inline-start: 6em;
+}
+
+.text-emphasis {
+  color: #005ae2;
+}
+
+img.line-image {
+  position: absolute;
+  width: 173.63px;
+  height: 19.91px;
+  left: 397px;
+  top: 185px;
+  /* top: 167.91px; */
+  /* margin-top: 0; */
+}
+
+.signup-enquiry {
+  display: flex;
+  justify-content: space-around;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.reg-enq {
+  list-style-type: none;
+  margin-block-start: 4em;
+  margin-inline-start: -7.5em;
+}
+
+.reg-enq .list-btn {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+.signup-btn {
+  width: 57px;
+  height: 12px;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 12px;
+  color: #ffffff;
+  border: 2px solid;
+  background: #0065fe;
+  border-radius: 100px;
+  text-decoration: none;
+  left: 5px;
+  bottom: -400px;
+  /* margin-bottom: 3px; */
+
+  position: relative;
+  padding: 12px 24px;
+  /* margin-block-start: 15em; */
+  /* margin-left: -18px; */
+}
+
+.enq-btn {
+  text-decoration: none;
+  left: 20px;
+  bottom: -400px;
+  position: relative;
+  width: 84px;
+  height: 20px;
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0065fe;
+}
+
+.tri-shape {
+  position: relative;
+  /* border:1px solid green; */
+  /* text-align: center; */
+  background-image: url(/asset/image/seamlessText_section_image.svg);
+  background-repeat: no-repeat;
+}
+
+.shape {
+  position: absolute;
+  /* top: 500px; */
+  bottom: -650px;
+  /* left: 600px; */
+  right: 500px;
+  color: #e2e9f0;
+  margin-left: 50px;
+  /* margin-top: 20px; */
+
+  /* Top: 725.63px;
+    Left: 369px; */
+  /* Rotation: 29.82°; */
+}
+
+.main-container {
+  position: relative;
+  margin-left: -200px;
+  /* background-image: url(/asset/image/Group3.svg);
+    background-repeat: no-repeat; */
+}
+
+.flex-container {
+  display: flex;
+  gap: 15rem;
+  /* justify-content: space-around;  */
+  position: absolute;
+  left: 300px;
+  bottom: -900px;
+  background-color: #f9fbfd;
+  padding: 12px 70px;
+  width: 84%;
+}
+
+.list-review .list-review-item {
+  display: inline-block;
+  padding-right: 8em;
+}
+
+.list-review-item .rev-item {
+  padding-inline-end: 135px;
+}
+
+.icons-container {
+  margin-block-start: 925px; /* Same as margin-top*/
+  margin-inline-start: 120px;
+  /* display: absolute; */
+}
+
+p.topic {
+  text-align: left;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 11px;
+  color: #141414;
+  margin-inline-start: 50px;
+
+  /* text-justify: inter-word; */
+}
+
+.sub-hd {
+  margin-inline-start: 50px;
+  font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+.first-column {
+  width: 33.3%;
+  /* border: 1px solid red; */
+  float: left;
+  /* text-align: left; */
+  padding-bottom: 145px;
+}
+
+.middle-column {
+  width: 33.3%;
+  float: left;
+  padding: 15px;
+  /* border: 1px solid red; */
+  /* text-align: left; */
+}
+
+.third-column {
+  width: 33.3%;
+  float: left;
+  /* padding: 15px; */
+  /* border: 1px solid red;  */
+  /* text-align: left; */
+}
+
+.vertical-ln {
+  position: absolute;
+  width: 3px;
+  height: 45px;
+}
+
+.section-heading {
+  position: relative;
+  margin-inline-start: 55px;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: #141414;
+}
+
+.price-ctner,
+.pricing {
+  text-align: center;
+  /* margin: 0 auto; */
+}
+
+.pricing {
+  margin-bottom: 0.5px;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.sub-sentence {
+  margin-inline-start: 100px; /* 470px, 510px */
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  /* letter-spacing: 0em; */
+  /* text-align: center; */
+
+  /* margin-block-start: 0.6px; */
+}
+
+.middle {
+  position: relative;
+  bottom: -60px;
+  left: -682px;
+}
+
+img.icons {
+  width: 55px;
+  height: 55px;
+  /* top: 16px;
+    left: 16px; */
+  border-radius: 50%;
+  /* border: solid 1px rgb(142, 142, 150); */
+  background: #d9e4ec; /* #F9FBFD;  */
+  padding: 0 9px;
+}
+
+/* CSS for bkg Image of One Stop Texts */
+.container {
+  position: relative;
+  gap: 2em;
+  justify-content: space-around;
+}
+
+.shape-container {
+  position: absolute;
+  bottom: -800px;
+  margin-left: 6em;
+  width: 100%;
+}
+
+h2.main-caption {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 48px;
+  /* letter-spacing: 0em; */
+  /* text-align: left; */
+  display: inline;
+  color: #141414;
+  /* padding-left: 50px; */
+  /* margin-left: -200px; */
+  /* margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 20px;
+    margin-inline-end: 0.83em;
+    font-weight: normal; */
+}
+
+.word {
+  color: #005ae2;
+}
+
+.list-review-item {
+  font-family: "Gilroy-SemiBold", sans-serif;
+  /* font-size: 32px; */
+  /* line-height: 24px; */
+  /* letter-spacing: 0em; */
+  /* text-align: left; */
+  color: #141414;
+  /* padding-top: 5em; */
+  /* font-weight: bold; */
+}
+
+li span.thin {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 11px;
+  /* line-height: 24px; */
+  /* letter-spacing: 0em;
+    text-align: left; */
+  /* color:  blue; */
+  margin-top: 15px;
+}
+
+.vertical {
+  display: block;
+  /* left: 1500px; */
+  /* bottom: -2050px; */
+  /* right: 500px; */
+  margin: 1000px 50px;
+}
+
+/* THIS IS THE CODE FOR BASIC & TEAMS PRICING */
+.price {
+  width: 15rem;
+  height: 24rem;
+  border-radius: 7px 0 0 7px;
+  border: 1px solid lightskyblue;
+  padding-inline-start: 1.5rem;
+}
+
+.col-three {
+  border-radius: 0 7px 7px 0; /* top-left, top-right, bottom-right & bottom-left corners */
+}
+
+/* THIS CODE BLOCK IS THE CONTAINER FOR THE 3 PRICE LIST */
+.prices {
+  display: flex;
+  margin-block-start: 5em;
+  margin-inline-start: 5em;
+}
+
+h3 {
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+h4 {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+h5 {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  font-weight: normal;
+}
+
+.benefits {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 10px;
+}
+
+.price-section {
+  width: 50rem;
+  height: 5rem;
+  margin-top: 3rem;
+  margin: 0 auto;
+}
+
+/* THIS CODE BLOCK IS FOR THE PROFESSIONAL PRICING COLUMN */
+#mid-jump {
+  /* border: 1px solid blue; */
+  width: 15rem;
+  height: 30rem;
+  border-radius: 7px;
+  transform: translateY(-2rem);
+  background-color: #1e3447;
+  color: #fff;
+}
+
+a.price-enq-btn,
+a.price-btn {
+  /* list-style-type: none; */
+  text-decoration: none;
+  /* margin: 0 auto; */
+}
+
+.pricing-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price-cta-btn .pricing-btn {
+  display: inline-block;
+  padding: 2em;
+}
+
+a#prc {
+  color: #0065fe;
+  background: #fff;
+  margin-left: 16rem; /*moves the get pricing button */
+  margin-right: -3.5rem;
+}
+
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  border: 2px solid;
+  background: #0065fe;
+  border-radius: 100px;
+}
+
+/* THIS CODE IS TO CONTROL THE MOVEMENT/POSITIONING OF THE PRICING BUTTONS */
+.price-cta-btn {
+    margin-top: 380px;
+    margin-left: -150px;
+  }
+
+  /* THIS CONTROLS THE BLACK CONTAINER BOX WHERE THE WHITE BOX IS IN */
+/* changed 1st part of this className from form to wrapper */
+  .wrapper-container {
+    background-color: #1e3448;
+    padding-block: 2em;
+    margin-block-start: 2em;
+    /* height: 50px; */
+  }
+
+  /* THIS CONTROLS THE WHITE FORM BOX */
+  .form-wrapper {
+    width: 450px; /*350px;*/
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    /* padding: 20px; */
+    margin: 8% auto 0;
+    text-align: center;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    padding: 5em; /*5em;*/
+    margin-block-start: 2em;
+    /* margin-block: 2rem; */
+    /* margin: 0 auto; */
+  } 
+
+  /* PASTE UR URL HERE INPUT BOX */
+  #url {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    width: 390px; /*290px;*/
+    height: 38px;
+    margin-inline-start: -4em; /* margin-left */
+    margin-block-end: 2em;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    /* text-align: left; */
+    /* color: #3284FF; */
+  }
+
+  /* input {
+    color: #ff324d;
+  } */
+
+  #domainName {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-left: -3.5em; /* -3.5em; */
+    width: 205px;
+    height: 38px;
+    margin-block-end: 1.5em; /* margin-bottom */
+    /* text-align: left; */
+    /* margin-right: -2em; */
+    color: #3284FF;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    /* position: relatiive; */
+  }
+
+  #alias {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-left: -3em; /* -4em; */
+    width:  /*100px;*/ 170px;
+    height: 38px;
+    /* text-align: left; */
+    color: #3284FF;
+    border-radius: 5px;
+    padding-left: 0.5em;
+   
+    /* POSITION, BOTTOM & RIGHT PROPERTIES MOVED THE INPUT BOXES SIDE BY SIDE */
+    position: relative;
+    bottom: 5em;
+    right: -17em;
+  }
+
+  /* #trim-btn {
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: -3.5em;
+    width: 390px;
+    height: 38px;
+    color: #FFFFFF;
+    background: #3284FF;
+    margin-block-start: -2em; /* margin-top 
+    border-radius: 5px;
+    border: 2px solid;
+    background: #0065fe;
+    border-radius: 100px;
+  } */
+
+  .terms {   
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-block-start: 2em;
+  }
+
+  .image-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #124354; */
+    /* color: #fff; */
+    padding: 10px 20px;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    width: 390px;
+    height: 38px;
+    color: #FFFFFF;
+    background: #3284FF;
+    margin-block-start: -2em; /* margin-top */
+    /* border-radius: 5px; */
+    border: 2px solid;
+  /* background: #0065fe; */
+    border-radius: 100px;
+    margin-left: -3.5em;
+  }
+
+  .image-button img {
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .left{
+    float: left;
+  }
+  
+  .clear{
+    clear: both;
+  }
+
+  /* -------ACCORDION STYLING STARTS HERE------- */
+  .accordion {
+    max-width: 800px;
+    margin: 0 auto; /* centers the faq section */
+  }
+
+  .accordion .contentBx {
+    position: relative;
+    margin: 10px 20px;
+  }
+
+  /* ACCORDION HEADINGS/LABELS */
+  .accordion .contentBx .label {
+    position: relative;
+    padding: 8px;
+    background: #fff;
+    /* color: #000; */
+    cursor: pointer;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 744px;
+    height: 32px;
+    color: #141414;
+  }
+
+  /* .label-seven, .label-nine {
+    margin-inline-end: 740px;
+  } */
+
+  /* + SIGN ON EACH ACCORDION LABEL */
+  .accordion .contentBx .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+  }
+
+  /* ACCORDION CONTENTS */
+   .accordion .contentBx .content {
+    position: relative;
+    padding: 8px;
+    background: #fff;
+    height: -20px; /* Making the height of the contents -ve reveals what's in each accordion */
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: clip; /* auto */
+
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #141414;
+    /* text-align: left; */
+
+    /* width: 792px;
+    height: 63px; */
+  } 
+
+  .content-one p {
+    margin-inline-start: 0.2em;
+  }
+
+  hr {
+    border: 1px solid #D6D6D6;
+  }
+
+   /* ----- ACCORDION STYLING ENDS HERE ------- */
+
+  .mid-pg {
+    padding-block-start: 3em;
+    /* font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF; */
+      /* background: #FFFFFF; */
+   } 
+
+   #mid-section {
+    height: 250px;
+    display: block;
+    font-family: 'Gilroy-Bold', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url('data:image/svg+xml,<svg width="1440" height="299" viewBox="0 0 1440 299" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="-50" width="1440" height="400" fill="url(%23paint0_linear_1_439)"/><defs><linearGradient id="paint0_linear_1_439" x1="720" y1="-50" x2="720" y2="350" gradientUnits="userSpaceOnUse"><stop offset="0.9999" stop-color="%231E3448"/><stop offset="1" stop-color="%231E3448" stop-opacity="0"/></linearGradient></defs></svg>');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center, 50%, 50%;
+    margin-block-start: 5em;
+   }
+
+   /* THIS STYLES THE GET STARTED BUTTON */
+   a.begin {
+    position: relative;
+    top: -22em;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0em;
+    border: 1px solid #3284FF;
+    margin-inline-start: 5em;
+    padding-inline: 2em;
+   }
+
+   /* FOOTER STYLING - USING COPY OF PRICING STYLING */
+
+   /* THIS CODE BLOCK IS THE CONTAINER FOR THE 3 PRICE LIST */
+  .prices {
+    display: flex;
+    margin-block-start: 3em;
+    margin-inline-start: 2em;
+    width: 100em;
+    height: 100em; 
+    /* padding-block-end: 2em; */
+  }
+
+  .benefits {
+    font-family: "Gilroy-Medium", sans-serif;
+    font-size: 10px;
+  }
+
+
+  .footer-pg {  /* FORMERLY price-section class */
+    width: 50rem;
+    height: 10rem; /*5rem;*/
+    margin-top: 3rem;
+    margin: 0 auto;
+    /* background: linear-gradient(340.22deg, rgba(0, 90, 226, 0.6) 11.62%, rgba(115, 230, 255, 0.228) 83.25%);
+    width: 5300px;
+    height: 410px;
+    top: 764.729248046875px;
+    left: 1071.9447326660156px;
+    opacity: 0.5px; */
+  }
+
+  .mini-logo, .socials {
+    margin-inline-start: -3em;
+  }
+
+  /* ALL h4 HEADINGS IN FOOTER SECTION */
+  .ft-page h4 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #071827; 
+    margin-bottom: 0.2em;
+  }
+
+  #why-scissor p, #resources, #solutions, #features, #products, #legal, #company {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0em;
+    margin-left: -0.1em;
+    color: #112232;
+  }
+
+  #resources, #solutions, #features, #products, #legal, #company  {
+    margin-left: -1em;
+  }
+
+  #res, #leg {
+    margin-block-start: 3em;
+  }
+
+  .scissor_terms {
+    position: relative;
+    bottom: -25rem;
+    right: 20rem;
+    /* overflow-x: clip; */
+  }
+
+  #terms-cond {
+    display: flex;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #112232;
+    background-image: url('data:image/svg+xml,<svg width="282" height="237" viewBox="0 0 282 237" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M2.62215 341.153C-3.17628 300.037 2.0152 256.123 24.4812 213.097C45.359 173.112 82.4614 139.772 122.944 110.712C161.774 82.8399 205.124 66.9811 249.858 51.3149C307.187 31.2388 377.548 -17.8342 419.579 6.83164C462.817 32.2045 423.193 102.548 422.699 152.744C422.372 186.111 424.134 216.996 417.182 251.261C408.532 293.897 418.154 344.247 377.344 376.313C336.59 408.335 282.729 381.814 233.522 395.57C172.961 412.499 113.571 477.647 60.0053 465.024C8.12976 452.798 9.32928 388.724 2.62215 341.153Z" fill="url(%23paint0_linear_1_494)" fill-opacity="0.6"/><defs><linearGradient id="paint0_linear_1_494" x1="441.815" y1="305.507" x2="44.6208" y2="237.159" gradientUnits="userSpaceOnUse"><stop stop-color="%23005AE2"/><stop offset="1" stop-color="%2373E6FF" stop-opacity="0.38"/></linearGradient></defs></svg>');
+  }
+
+  /* #terms-cond #sect,  #terms-cond #copyright {
+    margin-left: 1em;
+    /* text-align: center; 
+  }
+  */
+
+
+  /* THIS IS THE CODE FOR BASIC & TEAMS PRICING */
+  /* THIS IS WHERE I WILL REMOVE THE BLUE BORDER */
+.ft-page {
+  width: 15rem;
+  height: 24rem;
+  border-radius: 7px 0 0 7px;
+  /* border: 1px solid lightskyblue; */
+  padding-inline-start: 1.5rem;
+}
+
+.ft {
+  margin-left: -200px;
+}
+
+.col-three {
+  border-radius: 0 7px 7px 0; /* top-left, top-right, bottom-right & bottom-left corners */
+}
+
+/* .rect-image {
+    position: absolute;
+      /* top: 25px; */
+/* left: 25px;
+      bottom: -330px;
+      z-index: 2;
+      color:#F8F7F7; */
+
+/* position:absolute;
+      /* top: 25px; */
+/* left: 25px;
+      bottom: -330px; 
+      z-index: 2;
+      margin-inline-start: 250px; */
+/* } */
+
+/* .cta {
+    width: 79px;
+    height: 12px;
+    line-height: 12px;
+} */
+
+/* li { */
+/* list-style-type: none; This removes the UL bullet points */
+/* display: flex; */
+/* justify-content: space-between; */
+/* } */
+
+/* .nav-list .list-item {
+    display: inline-block;
+} */
+
+/* .nav-list-one, .nav-list-two {
+    display: flex;
+    /* align-items: center; */
+/* justify-content: space-around; */
+/* }  */
