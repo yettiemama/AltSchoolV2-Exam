@@ -541,6 +541,15 @@ a#prc {
   }
 
   /* -------ACCORDION STYLING STARTS HERE------- */
+
+  .vert-line {
+    position: relative;
+    width: 3px;
+    height: 45px; 
+    left: -3em;
+    bottom: -4em;
+  }
+
   .accordion {
     max-width: 800px;
     margin: 0 auto; /* centers the faq section */
@@ -594,8 +603,9 @@ a#prc {
     color: #141414;
   } 
 
-  .content-one p {
-    margin-inline-start: 0.2em;
+  #cont-one p {
+    text-align: left;
+    margin: 0 auto;
   }
 
   hr {
@@ -608,10 +618,6 @@ a#prc {
     padding-block-start: 3em;
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 40px;
-    /* line-height: 48px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #FFFFFF;   */
    } 
 
    #mid-section {
