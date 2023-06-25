@@ -587,6 +587,15 @@ a#prc {
     font-size: 1.5em;
   }
 
+  .accordion .contentBx .contentBx-one::before {
+    content: '-';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+  }
+
   /* ACCORDION CONTENTS */
    .accordion .contentBx .content {
     position: relative;
